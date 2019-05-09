@@ -16,9 +16,8 @@ end
 def using_shift(array)
   array.shift(3)
 end
-def using_shift(array)
-  new=array.shift(1)
-  return new
+def using_shift(array,item)
+  return array.shift(item)
 end
 def using_concat(arg1,arg2)
   arg1.concat(arg2)
